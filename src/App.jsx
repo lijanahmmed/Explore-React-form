@@ -5,7 +5,7 @@ import FormAction from './components/FormAction/FormAction'
 
 
 import SimpleForm from './components/SimpleForm/SimpleForm'
-
+import UnControlledField from './components/UnControlledField/UnControlledField'
 
 function App() {
   
@@ -15,6 +15,7 @@ function App() {
       <SimpleForm></SimpleForm>
       <FormAction></FormAction>
       <ControlledField></ControlledField>
+      <UnControlledField></UnControlledField>
       
     </>
   )
